@@ -1,0 +1,98 @@
+//Hello world
+//code==>>
+public class Simple {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.out.println("Hello world");
+
+	}
+
+}
+
+/* 2 program DISTANCE
+code here 
+	John needs to write a program to calculate the total distance travelled by  a vehicle. 
+To calculate the distance john can use the following formula:
+Distance=ut+(at2 )/2
+Here u is initial velocity meters per second a is the acceleration t is the time .help john to perform the desired task.  */
+
+import java.util.*;
+public class Assen {
+     public static void main(String[] args) {
+		Scanner o=new Scanner(System.in);
+		System.out.println("enter the a value u");
+		int u=o.nextInt();
+		System.out.println("enter the a value a");
+		int a=o.nextInt();
+		System.out.println("enter the a value t");
+		int t=o.nextInt();
+		double distance;
+		distance=(u*t)+(a*t*t )/2;
+		System.out.println(distance);
+	}
+}
+ /* code 3 or program CYLINDER
+ 		Mary needs to write a program to calculate the volume of a cylinder. To calculate the volume Mary needs to use the following formula
+Volume=pi*r*r*h
+R is the radious, h is height */
+ import java.util.*;
+public class Cylinder {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+			Scanner abi=new Scanner(System.in);
+			System.out.println("enter the a value R");
+			float R=abi.nextFloat();
+			System.out.println("enter the a value h30");
+			float h=abi.nextFloat();
+			double valume;
+			valume=3.14*R*R*h;
+			System.out.println(valume);
+			
+	}
+
+}
+/* code 4 or program 
+simple poplution
+Write a program  to find out the number of illiterate men from the population of 80000 people.
+ From the total population 52% are men, out of which only 35% are literate. */
+
+
+public class Totalpop {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	
+		double men,lil,illit ,tot=80000;
+		 men=.52*80000;
+		
+		 System.out.println("enter the a value of men"+ men);
+		lil=.35*men;
+		System.out.println("enter the a value illt " + lil);
+		illit=men-lil;
+		System.out.println(illit);
+	}
+
+}
+
+/* code 5 Temp to C
+Arnold want to write a programme to convert the temperature from celcious to farenheit. To calculate the temperature.
+F=(c*9/5)+32
+C is celcious F is farenheit */
+import java.util.*;
+public class Temp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+			Scanner abin=new Scanner(System.in);
+			System.out.println("enter the a value of C");
+			float c=abin.nextFloat();
+			double F;
+			F=(c*9/5)+32;
+			System.out.println(F);
+	}
+
+}
